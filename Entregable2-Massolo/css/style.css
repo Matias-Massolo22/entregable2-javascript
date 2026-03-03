@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+ border-radius: 70%;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+    border-radius: 70%;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 50%;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;  
+}
+
+nav li{
+    color: white;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+/*Carrito de compras dentro del header*/
+
+    .carritoCompras{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .contenedoresCarrito{
+        display: flex;
+        flex-direction: column;
+    }
+/*MAIN*/
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;               
+}
+
+.buscador{
+  display: column;
+  justify-content: center; /* Solo lo empuja al medio horizontal */
+  border: 1px solid gray;
+  width: 50%;
+}
+
+/*secciones de marcas*/
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5%;
+}
+
+
+/*cada articulo por separado*/
+
+
+
+article img{
+    width: 250px;
+   
+}
+
+
